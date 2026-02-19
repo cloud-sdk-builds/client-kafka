@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kafka`](https://www.npmjs.com/package/@aws-sdk/client-kafka/v/3.300.0).
+[`@aws-sdk/client-kafka`](https://www.npmjs.com/package/@aws-sdk/client-kafka/v/3.301.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.300.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.301.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-SfiUVvpSOD1UPd1f2YvYuVhdInqE41PY93zRBet7PfKj7W58+qyAePF7OCkekupb
+sha384-FPkBhF3Zgzuwg+ft/nlOgn1Zj8yP1j3If8VIBnTPcnIMbvk1PCDL8SjdEvZz5WsE
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kafka": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.300.0/index.min.mjs"
+            "@aws-sdk/client-kafka": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.301.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.300.0/index.min.mjs": "sha384-SfiUVvpSOD1UPd1f2YvYuVhdInqE41PY93zRBet7PfKj7W58+qyAePF7OCkekupb"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.301.0/index.min.mjs": "sha384-FPkBhF3Zgzuwg+ft/nlOgn1Zj8yP1j3If8VIBnTPcnIMbvk1PCDL8SjdEvZz5WsE"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kafka": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.300.0/index.min.mjs"
+                        "@aws-sdk/client-kafka": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.301.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.300.0/index.min.mjs": "sha384-SfiUVvpSOD1UPd1f2YvYuVhdInqE41PY93zRBet7PfKj7W58+qyAePF7OCkekupb"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kafka@3.301.0/index.min.mjs": "sha384-FPkBhF3Zgzuwg+ft/nlOgn1Zj8yP1j3If8VIBnTPcnIMbvk1PCDL8SjdEvZz5WsE"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.300.0`)
+* Always pin to a specific version (`@3.301.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kafka/blob/refs/tags/3.300.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kafka/blob/refs/tags/3.301.0/LICENSE
 ```
 
 ---
